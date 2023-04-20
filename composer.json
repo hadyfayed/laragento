@@ -1,12 +1,12 @@
 {
-    "name": "genaker/laragento",
+    "name": "hadyfayed/laragento",
     "description": "Use Magento backend with Laravel or any PHP framework",
     "homepage": "http://github.com/Genaker/laragento",
     "license": "MIT",
     
     "require": {
         "php": ">=7.3",
-        "illuminate/database": "^8"
+        "illuminate/database": "^10"
     },
     "autoload": {
         "psr-4": {

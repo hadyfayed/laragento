@@ -28,7 +28,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property string|null $packages
- * @property mediumblob|null $shipping_label
+ * @property blob|null $shipping_label
  * @property string|null $customer_note
  * @property int|null $customer_note_notify
  * 
@@ -56,7 +56,7 @@ class SalesShipment extends Model
 		'shipping_address_id' => 'int',
 		'billing_address_id' => 'int',
 		'shipment_status' => 'int',
-		'shipping_label' => 'mediumblob',
+		'shipping_label' => 'blob',
 		'customer_note_notify' => 'int'
 	];
 
